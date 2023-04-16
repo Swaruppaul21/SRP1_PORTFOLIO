@@ -1,0 +1,59 @@
+body{
+    background: rgb(203, 184, 255);
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background: #C0E0E9;
+}
+.button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 600px;
+    top: 250px;
+    color: #6458BE;
+
+    background: #FFB5B6;
+    font-family: 'Ubuntu', sans-serif;
+
+    transition: .5s;
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 74px;
+}
+
+.button:hover {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 600px;
+    top: 250px;
+    color: aliceblue;
+    
+
+    background: #cf6769;
+    font-family: 'Ubuntu', sans-serif;
+
+    transition: .5s;
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 74px;
+}
+
+.text {
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    left: 450px;
+    top: 350px;
+
+    text-align: center;
+    color: #6458BE;
+    font-family: 'Ubuntu', sans-serif;
+
+
+    background: #C0E0E9;
+    box-shadow: inset 8px 8px 15px rgba(40, 68, 101, 0.51);
+    border-radius: 15px;
+}

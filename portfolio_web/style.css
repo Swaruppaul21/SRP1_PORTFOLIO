@@ -1,0 +1,934 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3F3482;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pic {
+    position: absolute;
+    left: 180px;
+    top: 130px;
+
+}
+
+.name {
+
+    position: absolute;
+    left: 700px;
+    top: 130px;
+    color: #B8D4FF;
+    font-weight: 200;
+
+
+}
+
+
+.highlight {
+    color: #FFC700;
+
+}
+
+.btech {
+    position: absolute;
+    left: 1040px;
+    top: 190px;
+    color: #B8D4FF;
+}
+
+.bio {
+    position: absolute;
+    width: 620px;
+    height: 210px;
+    left: 574px;
+    top: 240px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: right;
+
+    color: #B8D4FF;
+
+}
+
+.name_color {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFC700;
+
+}
+
+.linkedin {
+    position: absolute;
+    left: 80px;
+    top: 260px;
+}
+
+.fb {
+    position: absolute;
+    left: 80px;
+    top: 320px;
+}
+
+.insta {
+    position: absolute;
+    left: 73px;
+    top: 375px;
+}
+
+.resume {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 1035px;
+    top: 490px;
+
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+
+    font-weight: 400;
+    color: #3F3482;
+
+    transition: .8s;
+
+
+    background: #FFC700;
+    border-radius: 26px;
+}
+
+.resume:hover {
+    background: #a58200;
+    color: #B8D4FF;
+    transition: .8s;
+
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    top: -8px;
+}
+
+.skills {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 690px;
+    top: 20px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+
+
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+
+    font-weight: 100;
+    color: #B8D4FF;
+
+    transition: .6s;
+
+
+    background: #b8d4ff78;
+    border-radius: 26px;
+
+}
+
+.experience {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 820px;
+    top: 20px;
+
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+
+    font-weight: 100;
+    color: #B8D4FF;
+
+    transition: .6s;
+
+
+    background: #b8d4ff78;
+    border-radius: 26px;
+
+}
+
+.projects {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 950px;
+    top: 20px;
+
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+
+    font-weight: 100;
+    color: #B8D4FF;
+
+    transition: .6s;
+
+
+    background: #b8d4ff78;
+    border-radius: 26px;
+
+}
+
+
+.contact {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 1080px;
+    top: 20px;
+
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+
+    transition: .6s;
+
+
+    font-weight: 100;
+    color: #B8D4FF;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+
+    background: #b8d4ff78;
+    border-radius: 26px;
+
+}
+
+.skills:hover {
+    background: #B8D4FF;
+    color: #3F3482;
+    transition: .6s;
+
+}
+
+.experience:hover {
+    background: #B8D4FF;
+    color: #3F3482;
+    transition: .6s;
+
+
+}
+
+.contact:hover {
+    background: #B8D4FF;
+    color: #3F3482;
+    transition: .6s;
+
+
+}
+
+.projects:hover {
+    background: #B8D4FF;
+    color: #3F3482;
+    transition: .6s;
+
+
+}
+
+#skills_bg {
+    position: absolute;
+    width: 1263px;
+    height: 320px;
+    left: 0px;
+    top: 601px;
+
+    background: #B8D4FF;
+}
+
+#skills_heading {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #3F3482;
+
+}
+
+.c_bg {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 280px;
+    top: 105px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.c {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 34px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.cpp_bg {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 430px;
+    top: 105px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.cpp {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 27px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.java_bg {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 580px;
+    top: 105px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.java {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 27px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.html_bg {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 730px;
+    top: 105px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.html {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 27px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.css_bg {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 880px;
+    top: 105px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.css {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 27px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.js_bg {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 400px;
+    top: 200px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.js {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 30px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.sql_bg {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 590px;
+    top: 200px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.sql {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 30px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+.ui_bg {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 788px;
+    top: 200px;
+
+    background: #3F3482;
+    border-radius: 26px;
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.25));
+}
+
+.ui {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    left: 32px;
+    top: 18px;
+    color: #B8D4FF;
+    font-size: 20px;
+
+}
+
+#experience_heading {
+    position: absolute;
+    left: 555px;
+    top: 950px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #B8D4FF;
+
+}
+
+.line {
+    position: absolute;
+    width: 15px;
+    height: 850px;
+    left: 620px;
+    top: 1020px;
+
+    background: #B8D4FF;
+    border-radius: 15px;
+}
+
+.circle_first {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 610px;
+    top: 1120px;
+
+}
+
+.first_internship {
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 60px;
+    top: 1090px;
+    text-align: right;
+
+}
+
+.date_first {
+    font-size: 20px;
+    color: #FFC700;
+}
+
+.role_first {
+    font-size: 35px;
+    color: #B8D4FF;
+}
+
+.company_first {
+    font-size: 20px;
+    font-weight: 80;
+    color: #B8D4FF;
+}
+
+.circle_second {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 610px;
+    top: 1320px;
+
+}
+
+.second_internship {
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 690px;
+    top: 1290px;
+    text-align: left;
+
+}
+
+.date_second {
+    font-size: 20px;
+    color: #FFC700;
+}
+
+.role_second {
+    font-size: 35px;
+    color: #B8D4FF;
+}
+
+.company_second {
+    font-size: 20px;
+    font-weight: 80;
+    color: #B8D4FF;
+}
+
+.circle_third {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 610px;
+    top: 1520px;
+
+}
+
+.third_internship {
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 60px;
+    top: 1490px;
+    text-align: right;
+
+}
+
+.date_third {
+    font-size: 20px;
+    color: #FFC700;
+}
+
+.role_third {
+    font-size: 35px;
+    color: #B8D4FF;
+}
+
+.company_third {
+    font-size: 20px;
+    font-weight: 80;
+    color: #B8D4FF;
+}
+
+.circle_fourth {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 610px;
+    top: 1720px;
+
+}
+
+.fourth_internship {
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 690px;
+    top: 1690px;
+    text-align: left;
+
+}
+
+.date_fourth {
+    font-size: 20px;
+    color: #FFC700;
+}
+
+.role_fourth {
+    font-size: 35px;
+    color: #B8D4FF;
+}
+
+.company_fourth {
+    font-size: 20px;
+    font-weight: 80;
+    color: #B8D4FF;
+}
+
+#projects_bg {
+    position: absolute;
+    width: 1263px;
+    height: 820px;
+    left: 0px;
+    top: 1940px;
+
+    background: #B8D4FF;
+}
+
+#projects_heading {
+    position: absolute;
+    left: 570px;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #3F3482;
+
+}
+
+
+.designing {
+    position: absolute;
+    left: 180px;
+    top: 120px;
+    font-size: 25px;
+    color: #3F3482;
+
+}
+
+.money {
+    position: absolute;
+    left: 60px;
+    top: 195px;
+}
+
+.first_appleft {
+    position: absolute;
+    width: 400px;
+    left: 200px;
+    top: 220px;
+    text-align: left;
+}
+
+.app_name {
+
+    color: #3F3482;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.app_description {
+    color: #3F3482;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cafe {
+    position: absolute;
+    left: 60px;
+    top: 395px;
+}
+
+.second_appleft {
+    position: absolute;
+    width: 400px;
+    left: 200px;
+    top: 400px;
+    text-align: left;
+}
+
+.second_app_name {
+
+    color: #3F3482;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second_app_description {
+    color: #3F3482;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ahead {
+    position: absolute;
+    left: 60px;
+    top: 595px;
+}
+
+.third_appleft {
+    position: absolute;
+    width: 400px;
+    left: 200px;
+    top: 610px;
+    text-align: left;
+}
+
+.third_app_name {
+
+    color: #3F3482;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.third_app_description {
+    color: #3F3482;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line_second {
+    position: absolute;
+    width: 8px;
+    height: 680px;
+    left: 620px;
+    top: 110px;
+
+    background: #3F3482;
+    border-radius: 14px;
+
+}
+
+.development {
+    position: absolute;
+    left: 980px;
+    top: 120px;
+    font-size: 25px;
+    color: #3F3482;
+
+}
+
+.weather {
+    position: absolute;
+    left: 1080px;
+    top: 195px;
+}
+
+.first_app_right {
+    position: absolute;
+    width: 400px;
+    left: 650px;
+    top: 220px;
+    text-align: right;
+}
+
+.first_app_name_right {
+
+    color: #3F3482;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.first_app_description_right {
+    color: #3F3482;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.music {
+    position: absolute;
+    left: 1080px;
+    top: 395px;
+}
+
+.second_app_right {
+    position: absolute;
+    width: 400px;
+    left: 650px;
+    top: 415px;
+    text-align: right;
+}
+
+.second_app_name_right {
+
+    color: #3F3482;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second_app_description_right {
+    color: #3F3482;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.flight {
+    position: absolute;
+    left: 1080px;
+    top: 595px;
+}
+
+.third_app_right {
+    position: absolute;
+    width: 400px;
+    left: 650px;
+    top: 615px;
+    text-align: right;
+}
+
+.third_app_name_right {
+
+    color: #3F3482;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.third_app_description_right {
+    color: #3F3482;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div.pic {
+    height: 500px;
+    overflow: hidden;
+}
+
+div.pic {
+    animation: pic 5s;
+    margin-top: 0%;
+}
+
+@keyframes pic {
+    from {
+        margin-top: -10%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
+}
+
+#contacts_heading {
+    position: absolute;
+    left: 567px;
+    top: 2785px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #B8D4FF;
+}
+
+.mail {
+    position: absolute;
+    left: 100px;
+    top: 2900px;
+}
+
+.mailid {
+    position: absolute;
+    left: 170px;
+    top: 2903px;
+    color: #B8D4FF;
+    font-size: 20px;
+}
+
+.number {
+    position: absolute;
+    left: 600px;
+    top: 2900px;
+}
+
+.numberid {
+    position: absolute;
+    left: 650px;
+    top: 2903px;
+    color: #B8D4FF;
+    font-size: 20px;
+}
+
+.location {
+    position: absolute;
+    left: 900px;
+    top: 2900px;
+}
+
+.locationid {
+    position: absolute;
+    left: 950px;
+    top: 2903px;
+    color: #B8D4FF;
+    font-size: 20px;
+}
+
+.footer {
+    position: absolute;
+    width: 1263px;
+    height: 80px;
+    left: 0px;
+    top: 3000px;
+
+    background: #b8d4ff61;
+}
+
+.footer_id {
+    position: absolute;
+    left: 520px;
+    top: 35px;
+    color: #B8D4FF;
+}
